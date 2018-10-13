@@ -1,0 +1,53 @@
+body{
+	height: 100%;
+	
+	background-image: url("../images/background_menu1.png");
+	background-size: cover;
+    background-position: center; 
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#body{
+	height: 100%;
+	width: 100%;
+	
+	padding-bottom: 3%;
+}
+
+label{
+	color: white;
+	
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#main{
+	
+	height: 30%;
+	width: 50%;
+	
+	margin: auto;
+	
+	border-radius: 40px;
+	padding: 50px;
+	
+	
+	background-color: rgb(40,40,40);
+}
+
+#end{
+	position: fixed;
+	bottom: 0px;
+	margin-left: 15%;
+	padding-right: 2%;
+	
+	width: 70%;
+	text-align: right;
+	
+	border-radius: 5px;
+	
+	color: grey;
+	background-color: rgb(40,40,40);
+}
